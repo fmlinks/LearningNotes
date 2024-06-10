@@ -12,7 +12,9 @@ paper summary
 Journal
 
 - [ ] Lancet series:
+
 The Lancet Digital Health
+[Deep learning models for thyroid nodules diagnosis of fine-needle aspiration biopsy: a retrospective, prospective, multicentre study in China](https://www.sciencedirect.com/science/article/pii/S2589750024000852?dgcid=rss_sd_all)
  
 - [ ] Nature series:
       
