@@ -1,10 +1,13 @@
 # Pending Updates
 
 
+## 11/06/2024:
+
+European Heart Journal
+
+
+
 ## 10/06/2024:
-
-
-
 
 paper summary
 
