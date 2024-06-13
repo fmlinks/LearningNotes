@@ -1,5 +1,11 @@
 # Pending Updates
 
+## 13/06/2024
+IEEE-TPAMI
+
+[Supervision by Denoising](https://ieeexplore.ieee.org/document/10197225)
+
+
 ## 12/06/2024:
 Nature Machine Intelligence
 
