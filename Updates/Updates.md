@@ -1,5 +1,10 @@
 # Pending Updates
 
+
+## 14/06/2024
+
+[Geometry-Informed Neural Networks](https://arxiv.org/abs/2402.14009)
+
 ## 13/06/2024
 IEEE-TPAMI
 
