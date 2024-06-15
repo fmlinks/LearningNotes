@@ -3,15 +3,11 @@
 
 ## 15/06/2024
 
-- [ ] IEEE-TMI
-
-[3D Vascular Segmentation Supervised by 2D Annotation of Maximum Intensity Projection](https://ieeexplore.ieee.org/document/10423041)  
+- [ ] IEEE-TMI [3D Vascular Segmentation Supervised by 2D Annotation of Maximum Intensity Projection](https://ieeexplore.ieee.org/document/10423041)  
 
 Confident Learning and Uncertainty Estimation
 
-- [ ] The Lancet Digital Health
-
-[Prediction of diagnosis and diastolic filling pressure by AI-enhanced cardiac MRI: a modelling study of hospital data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00063-3/fulltext)
+- [ ] The Lancet Digital Health [Prediction of diagnosis and diastolic filling pressure by AI-enhanced cardiac MRI: a modelling study of hospital data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00063-3/fulltext)
 
 ### U-Net Family for medical image segmentation
 
