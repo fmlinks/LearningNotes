@@ -11,7 +11,9 @@ Confident Learning and Uncertainty Estimation
 
 MRA CTA Vascular Segmentation
 
-- [ ] The Lancet Digital Health [Prediction of diagnosis and diastolic filling pressure by AI-enhanced cardiac MRI: a modelling study of hospital data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00063-3/fulltext)
+- [ ] [Prediction of diagnosis and diastolic filling pressure by AI-enhanced cardiac MRI: a modelling study of hospital data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00063-3/fulltext)
+
+The Lancet Digital Health 
 
 ### U-Net Family for medical image segmentation
 
