@@ -3,6 +3,10 @@
 
 ## 15/06/2024
 
+The Lancet Digital Health
+
+[Prediction of diagnosis and diastolic filling pressure by AI-enhanced cardiac MRI: a modelling study of hospital data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00063-3/fulltext)
+
 ### U-Net Family for medical image segmentation
 
 #### Category 1: Improvement of backbone by introducing new structures in the encoder or decoder
