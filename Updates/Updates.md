@@ -1,6 +1,104 @@
 # Pending Updates
 
 
+## 15/06/2024
+
+### U-Net Family for medical image segmentation
+
+#### Category 1: Improvement of backbone by introducing new structures in the encoder or decoder
+
+1. U-Net
+2. Residual U-Net
+3. V-Net
+4. 3D U-Net
+5. H-DenseUNet
+6. GP-Unet
+7. nnU-Net
+8. SUNet
+9. MDU-Net
+10. DUNet
+11. RA-UNet
+12. Dense Multi-path U-Net
+13. Stacked Dense U-Nets
+14. Prostate Segmentation U-net
+15. LADDERNET
+16. Glioma Segmentation with Cascaded Unet
+17. Attention U-Net
+18. R2U-Net
+19. Squeeze & Excitation U-Net
+20. AnatomyNet
+21. 3D RoI-aware U-Net
+22. Y-Net
+23. Fully Dense UNet
+24. U-NetPlus
+25. CE-Net
+26. Graph U-Net
+27. ST-UNet
+28. Connection Sensitive Attention U-NET
+29. CIA-Net
+30. W-Net
+31. Coordination-guided Deep Neural Networks
+32. U2-Net
+33. ScleraSegNet
+34. AHCNet
+35. Recurrent U-Net
+36. MFP-Unet
+37. Partially Reversible U-Net
+38. ResUNet-a
+39. Multi-task U-net
+40. RAUNet
+41. 3D U2-Net
+42. SegNAS3D
+43. 3D Dilated Multi-Fiber Network
+44. Unet-GAN
+45. Siamese U-Net
+46. U^2-Net
+47. UNET 3+
+48. BiO-Net
+49. Projective Skip-Connections
+50. BCDU-Net
+51. CR-Unet
+
+#### Category 2: Improvement of bottleneck, introduction of new operations on latent space
+
+1. MA-Net
+2. SA-UNet
+3. RIC U-Net
+4. FRCU-Net
+5. SMU-Net
+6. ASPPP-FC DenseNet
+7. COPLE-Net
+8. JCS
+
+#### Category 3: Improvement of skip connection, introduce new operations in the skip connection process
+
+1. U-Net++
+2. U-Net 3+
+3. Attention U-Net
+4. RA-UNet
+5. Attention UNet++
+6. Projective Skip-Connections
+7. BCDU-Net
+8. CR-Unet
+
+### Category 4: Improvement of overall structure, adding a new structure based the auto-encoder
+
+1. Probabilistic U-Net
+2. Hierarchical Probabilistic U-Net
+3. MRF-UNet
+4. Bayesian Skip Net
+5. VAE U-Net
+6. Probability Map Guided Bi-directional Recurrent UNet
+7. Improved Attention U-Net
+8. Focal Tversky Attention U-Net
+9. Polar Transformation M-Net
+10. Cascaded U-Net
+11. 3D Attention U-Net
+
+
+
+
+
 ## 14/06/2024
 
 [Geometry-Informed Neural Networks](https://arxiv.org/abs/2402.14009)
