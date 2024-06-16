@@ -1,5 +1,10 @@
 # Pending Updates
 
+## 16/06/2024
+
+[A Dual Enrichment Synergistic Strategy to Handle Data Heterogeneity for Domain Incremental Cardiac Segmentation](https://ieeexplore.ieee.org/document/10433413)
+
+[Synthetic Optical Coherence Tomography Angiographs for Detailed Retinal Vessel Segmentation Without Human Annotations](https://ieeexplore.ieee.org/document/10400503)
 
 ## 15/06/2024
 
