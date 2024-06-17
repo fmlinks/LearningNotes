@@ -1,6 +1,8 @@
 # Pending Updates
 
 ## 17/06/2024
+MedIA
+
 [A review of uncertainty quantification in medical image analysis: Probabilistic and non-probabilistic methods](https://www.sciencedirect.com/science/article/pii/S1361841524001488)
 
 ## 16/06/2024
