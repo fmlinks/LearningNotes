@@ -7,6 +7,8 @@ MedIA
 
 ## 16/06/2024
 
+IEEE-TMI
+
 [A Dual Enrichment Synergistic Strategy to Handle Data Heterogeneity for Domain Incremental Cardiac Segmentation](https://ieeexplore.ieee.org/document/10433413)
 
 [Synthetic Optical Coherence Tomography Angiographs for Detailed Retinal Vessel Segmentation Without Human Annotations](https://ieeexplore.ieee.org/document/10400503)
