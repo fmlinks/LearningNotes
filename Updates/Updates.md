@@ -8,7 +8,7 @@ Survey
 
 [Foundation Models for Biomedical Image Segmentation: A Survey](https://arxiv.org/abs/2401.07654)
 
-[Foundational Models in Medical Imaging: A Comprehensive Survey and Future Vision](https://arxiv.org/abs/2310.18689) [github](https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging)
+[Foundational Models in Medical Imaging: A Comprehensive Survey and Future Vision](https://arxiv.org/abs/2310.18689) - [github](https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging)
 
 ## 18/06/2024
 
