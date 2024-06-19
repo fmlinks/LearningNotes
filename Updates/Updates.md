@@ -1,5 +1,20 @@
 # Pending Updates
 
+## 19/06/2024
+
+Survey
+
+[A Comprehensive Survey of Foundation Models in Medicine](https://arxiv.org/abs/2406.10729)
+
+[Foundation Models for Biomedical Image Segmentation: A Survey](https://arxiv.org/abs/2401.07654)
+
+[Foundational Models in Medical Imaging: A Comprehensive Survey and Future Vision](https://arxiv.org/abs/2310.18689) [github](https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging)
+
+## 18/06/2024
+
+medical image analysis content
+
+
 ## 17/06/2024
 MedIA
 
