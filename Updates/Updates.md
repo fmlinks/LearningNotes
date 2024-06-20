@@ -10,20 +10,20 @@ CVPR 2024 best paper
 
 CVPR 2024 best student paper
 
-[BioCLIP: A Vision Foundation Model for the Tree of Life](https://imageomics.github.io/bioclip/)
+- [ ] [BioCLIP: A Vision Foundation Model for the Tree of Life](https://imageomics.github.io/bioclip/)
 
-[Mip-Splatting: Alias-free 3D Gaussian Splatting](https://github.com/autonomousvision/mip-splatting?tab=readme-ov-file)
+- [ ] [Mip-Splatting: Alias-free 3D Gaussian Splatting](https://github.com/autonomousvision/mip-splatting?tab=readme-ov-file)
 
 
 ## 19/06/2024
 
 Survey
 
-[Foundation Models for Biomedical Image Segmentation: A Survey](https://arxiv.org/abs/2401.07654)
+- [ ] [Foundation Models for Biomedical Image Segmentation: A Survey](https://arxiv.org/abs/2401.07654)
 
-[Foundational Models in Medical Imaging: A Comprehensive Survey and Future Vision](https://arxiv.org/abs/2310.18689) - [github](https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging)
+- [ ] [Foundational Models in Medical Imaging: A Comprehensive Survey and Future Vision](https://arxiv.org/abs/2310.18689) - [github](https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging)
 
-[A Comprehensive Survey of Foundation Models in Medicine](https://arxiv.org/abs/2406.10729)
+- [ ] [A Comprehensive Survey of Foundation Models in Medicine](https://arxiv.org/abs/2406.10729)
 
 ## 18/06/2024
 
@@ -33,15 +33,15 @@ medical image analysis content
 ## 17/06/2024
 MedIA
 
-- [A review of uncertainty quantification in medical image analysis: Probabilistic and non-probabilistic methods](https://www.sciencedirect.com/science/article/pii/S1361841524001488)
+- [ ] [A review of uncertainty quantification in medical image analysis: Probabilistic and non-probabilistic methods](https://www.sciencedirect.com/science/article/pii/S1361841524001488)
 
 ## 16/06/2024
 
 IEEE-TMI
 
-[A Dual Enrichment Synergistic Strategy to Handle Data Heterogeneity for Domain Incremental Cardiac Segmentation](https://ieeexplore.ieee.org/document/10433413)
+- [ ] [A Dual Enrichment Synergistic Strategy to Handle Data Heterogeneity for Domain Incremental Cardiac Segmentation](https://ieeexplore.ieee.org/document/10433413)
 
-[Synthetic Optical Coherence Tomography Angiographs for Detailed Retinal Vessel Segmentation Without Human Annotations](https://ieeexplore.ieee.org/document/10400503)
+- [ ] [Synthetic Optical Coherence Tomography Angiographs for Detailed Retinal Vessel Segmentation Without Human Annotations](https://ieeexplore.ieee.org/document/10400503)
 
 ## 15/06/2024
 
