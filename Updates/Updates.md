@@ -4,9 +4,9 @@
 
 CVPR 2024 best paper
 
-[Generative Image Dynamics](https://generative-dynamics.github.io/)
+- [x] [Generative Image Dynamics](https://generative-dynamics.github.io/)
 
-[Rich Human Feedback for Text-to-Image Generation](https://arxiv.org/html/2312.10240v1)
+- [x] [Rich Human Feedback for Text-to-Image Generation](https://arxiv.org/html/2312.10240v1)
 
 CVPR 2024 best student paper
 
