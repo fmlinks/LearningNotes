@@ -1,5 +1,13 @@
 # Pending Updates
 
+## 20/06/2024
+
+CVPR 2024 best student paper
+
+[BioCLIP: A Vision Foundation Model for the Tree of Life](https://imageomics.github.io/bioclip/)
+
+[Mip-Splatting: Alias-free 3D Gaussian Splatting](https://github.com/autonomousvision/mip-splatting?tab=readme-ov-file)
+
 ## 19/06/2024
 
 Survey
