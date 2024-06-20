@@ -6,7 +6,6 @@
 
 [2016-11-03] [Unruptured intracranial aneurysms: development, rupture and preventive management](https://www.nature.com/articles/nrneurol.2016.150)
 
-% [2022-03-24] [Cerebral aneurysms at major arterial bifurcations are associated with the arterial branch forming a smaller angle with the parent artery](https://www.nature.com/articles/s41598-022-09000-7)
 
 
 ### Aortic Aneurysm
