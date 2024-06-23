@@ -1,5 +1,9 @@
 # Pending Updates
 
+## 22/06/2024
+
+[Assessing the arrhythmogenic propensity of fibrotic substrate using digital twins to inform a mechanisms-based atrial fibrillation ablation strategy](https://www.nature.com/articles/s44161-024-00489-x)
+
 ## 20/06/2024
 
 CVPR 2024 best paper
