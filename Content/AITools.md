@@ -9,7 +9,7 @@
 
 | Links                                                                                                                                                         | Description                     |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| <a href="https://smart.servier.com/" target="_parent\"><img src="https://img.shields.io/badge/Servier-blue"/></a>                                      | Servier medical art repository, free research illustration \n use: Graphical elements are adapted from Servier medical art repository (https://smart.servier.com) |
+| <a href="https://smart.servier.com/" target="_parent\"><img src="https://img.shields.io/badge/Servier-blue"/></a>                                      | Servier medical art repository, free research illustration <br> use: Graphical elements are adapted from Servier medical art repository (https://smart.servier.com) |
 | <a href="https://hiplot.cn/" target="_parent\"><img src="https://img.shields.io/badge/hiplot-blue"/></a>                                             | statistical chart, bin chart ...  |
 | <a href="https://app.biorender.com/" target="_parent\"><img src="https://img.shields.io/badge/biorender-blue"/></a>                                   | research illustration |
 | <a href="https://www.figdraw.com/#/" target="_parent\"><img src="https://img.shields.io/badge/figdraw-blue"/></a>                                     | diagrams, medical organs, biomedical illustration |
