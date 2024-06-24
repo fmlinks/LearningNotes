@@ -1,6 +1,12 @@
 # Pending Updates
 
-## 22/06/2024
+## 24/06/2024
+
+[A Bayesian network for simultaneous keyframe and landmark detection in ultrasonic cine](https://www.sciencedirect.com/science/article/pii/S1361841524001531)
+
+Bayesian network
+
+## 23/06/2024
 
 [Assessing the arrhythmogenic propensity of fibrotic substrate using digital twins to inform a mechanisms-based atrial fibrillation ablation strategy](https://www.nature.com/articles/s44161-024-00489-x)
 
