@@ -6,6 +6,72 @@
 
 Bayesian network
 
+`GaussianNB` 是一个用于分类任务的高斯朴素贝叶斯分类器，它是朴素贝叶斯（Naive Bayes）算法的一个具体实现。朴素贝叶斯算法基于贝叶斯定理，并假设特征之间相互独立。`GaussianNB` 假设每个特征的值服从高斯（正态）分布。
+
+#### 高斯朴素贝叶斯分类器的原理
+
+#### 朴素贝叶斯定理
+对于一个给定的输入样本 $\mathbf{x} = (x_1, x_2, \ldots, x_n)$，朴素贝叶斯分类器根据贝叶斯定理计算后验概率 $P(C_k | \mathbf{x})$，其中 $C_k$ 是类别标签。贝叶斯定理表示为：
+$$P(C_k | \mathbf{x}) = \frac{P(\mathbf{x} | C_k) \cdot P(C_k)}{P(\mathbf{x})}$$
+
+由于对于所有类别 $C_k$ 的 $P(\mathbf{x})$ 是相同的，因此分类时只需比较分子部分 $P(\mathbf{x} | C_k) \cdot P(C_k)$。
+
+#### 独立性假设
+朴素贝叶斯分类器假设特征 \( x_i \) 在给定类别 \( C_k \) 的条件下是相互独立的，因此：
+$$P(\mathbf{x} | C_k) = \prod_{i=1}^{n} P(x_i | C_k)$$
+
+#### 高斯分布假设
+对于高斯朴素贝叶斯分类器，假设每个特征 \( x_i \) 在给定类别 \( C_k \) 的条件下服从高斯分布：
+$$P(x_i | C_k) = \frac{1}{\sqrt{2\pi \sigma_{C_k, i}^2}} \exp\left(-\frac{(x_i - \mu_{C_k, i})^2}{2\sigma_{C_k, i}^2}\right)$$
+
+其中 $\mu_{C_k, i}$ 和 $\sigma_{C_k, i}$ 分别是类别 $C_k$ 的特征 $x_i$ 的均值和标准差。
+
+
+
+
+
+#### 示例代码
+
+下面是一个简单的例子，展示如何使用 `GaussianNB` 进行分类：
+
+```python
+import numpy as np
+from sklearn.naive_bayes import GaussianNB
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from keras.datasets import mnist
+
+# 加载MNIST数据集
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+# 数据预处理
+x_train = x_train.reshape((x_train.shape[0], -1)) / 255.0
+x_test = x_test.reshape((x_test.shape[0], -1)) / 255.0
+
+# 使用PCA进行降维
+from sklearn.decomposition import PCA
+pca = PCA(n_components=50)
+x_train_pca = pca.fit_transform(x_train)
+x_test_pca = pca.transform(x_test)
+
+# 训练高斯朴素贝叶斯分类器
+clf = GaussianNB()
+clf.fit(x_train_pca, y_train)
+
+# 进行预测
+y_pred = clf.predict(x_test_pca)
+
+# 评估模型
+accuracy = accuracy_score(y_test, y_pred)
+print(f'Accuracy: {accuracy * 100:.2f}%')
+```
+
+`GaussianNB` 是朴素贝叶斯分类器的一种实现，假设每个特征在各类别条件下服从高斯分布。通过这种假设，`GaussianNB` 可以在处理高维数据时保持计算上的高效性，并且在许多实际应用中表现良好。尽管对于像MNIST这样复杂的图像数据集，`GaussianNB` 可能不是最优的选择，但通过特征提取和降维等预处理步骤，仍然可以用来进行基本的分类任务。
+
+
+
+
+
 ## 23/06/2024
 
 [Assessing the arrhythmogenic propensity of fibrotic substrate using digital twins to inform a mechanisms-based atrial fibrillation ablation strategy](https://www.nature.com/articles/s44161-024-00489-x)
