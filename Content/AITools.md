@@ -1,4 +1,4 @@
-## AI Tools for Medical Image Analysis Research
+## AI Tools for Research
 
 
 
