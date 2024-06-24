@@ -10,17 +10,17 @@ Bayesian network
 
 #### 高斯朴素贝叶斯分类器的原理
 
-#### 朴素贝叶斯定理
+#### (1) 朴素贝叶斯定理
 对于一个给定的输入样本 $\mathbf{x} = (x_1, x_2, \ldots, x_n)$，朴素贝叶斯分类器根据贝叶斯定理计算后验概率 $P(C_k | \mathbf{x})$，其中 $C_k$ 是类别标签。贝叶斯定理表示为：
 $$P(C_k | \mathbf{x}) = \frac{P(\mathbf{x} | C_k) \cdot P(C_k)}{P(\mathbf{x})}$$
 
 由于对于所有类别 $C_k$ 的 $P(\mathbf{x})$ 是相同的，因此分类时只需比较分子部分 $P(\mathbf{x} | C_k) \cdot P(C_k)$。
 
-#### 独立性假设
+#### (2) 独立性假设
 朴素贝叶斯分类器假设特征 \( x_i \) 在给定类别 \( C_k \) 的条件下是相互独立的，因此：
 $$P(\mathbf{x} | C_k) = \prod_{i=1}^{n} P(x_i | C_k)$$
 
-#### 高斯分布假设
+#### (3) 高斯分布假设
 对于高斯朴素贝叶斯分类器，假设每个特征 \( x_i \) 在给定类别 \( C_k \) 的条件下服从高斯分布：
 $$P(x_i | C_k) = \frac{1}{\sqrt{2\pi \sigma_{C_k, i}^2}} \exp\left(-\frac{(x_i - \mu_{C_k, i})^2}{2\sigma_{C_k, i}^2}\right)$$
 
