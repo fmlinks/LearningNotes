@@ -18,5 +18,3 @@
 | <a href="https://bioicons.com/" target="_parent\"><img src="https://img.shields.io/badge/bioicons-blue"/></a>                                         | biomedical illustration |
 
 
-
-https://hiplot.cn/
