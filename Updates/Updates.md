@@ -2,11 +2,11 @@
 
 ## 24/06/2024
 
-- [ ] `NMI` [A collective AI via lifelong learning and sharing at the edge](https://www.nature.com/articles/s42256-024-00800-2)
+- [ ]  [A collective AI via lifelong learning and sharing at the edge](https://www.nature.com/articles/s42256-024-00800-2) `NAT MACH INTELL`
 
-- [ ] `NMI` [Reconciling privacy and accuracy in AI for medical imaging](https://www.nature.com/articles/s42256-024-00858-y)
+- [ ] [Reconciling privacy and accuracy in AI for medical imaging](https://www.nature.com/articles/s42256-024-00858-y) `NAT MACH INTELL`
 
-- [ ] `MedIA` [A Bayesian network for simultaneous keyframe and landmark detection in ultrasonic cine](https://www.sciencedirect.com/science/article/pii/S1361841524001531)
+- [ ] [A Bayesian network for simultaneous keyframe and landmark detection in ultrasonic cine](https://www.sciencedirect.com/science/article/pii/S1361841524001531) `MedIA` 
 
 Bayesian network
 
