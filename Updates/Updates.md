@@ -2,9 +2,9 @@
 
 ## 24/06/2024
 
-- [ ] `Nature MI` [A collective AI via lifelong learning and sharing at the edge](https://www.nature.com/articles/s42256-024-00800-2)
+- [ ] `NMI` [A collective AI via lifelong learning and sharing at the edge](https://www.nature.com/articles/s42256-024-00800-2)
 
-- [ ] `Nature MI` [Reconciling privacy and accuracy in AI for medical imaging](https://www.nature.com/articles/s42256-024-00858-y)
+- [ ] `NMI` [Reconciling privacy and accuracy in AI for medical imaging](https://www.nature.com/articles/s42256-024-00858-y)
 
 - [ ] `MedIA` [A Bayesian network for simultaneous keyframe and landmark detection in ultrasonic cine](https://www.sciencedirect.com/science/article/pii/S1361841524001531)
 
