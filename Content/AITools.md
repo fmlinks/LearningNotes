@@ -19,5 +19,4 @@
 
 | Links to Tools     | Description                   |
 |--------------------|-------------------------------|
-<a href="https://www.fil.ion.ucl.ac.uk/spm/software/spm12/" target="_parent\"><img src="https://img.shields.io/badge/SPM-blue"/></a> | 
-  Alzheimer’s disease MRI preprocessing |
+<a href="https://www.fil.ion.ucl.ac.uk/spm/software/spm12/" target="_parent\"><img src="https://img.shields.io/badge/SPM-blue"/></a> | Alzheimer’s disease MRI preprocessing |
