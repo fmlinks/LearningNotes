@@ -1,4 +1,4 @@
-## multi-modality fusion
+## Multi-modality Fusion
 
 [Alzheimer’s disease diagnosis from multi-modal data via feature inductive learning and dual multilevel graph neural network](https://www.sciencedirect.com/science/article/pii/S1361841524001385)
 
