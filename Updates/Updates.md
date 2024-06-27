@@ -2,6 +2,8 @@
 
 ## 27/06/2024
 
+[Universal and extensible language-vision models for organ segmentation and tumor detection from abdominal computed tomography](https://www.sciencedirect.com/science/article/abs/pii/S1361841524001518)
+
 ## 24/06/2024
 
 - [ ]  [A collective AI via lifelong learning and sharing at the edge](https://www.nature.com/articles/s42256-024-00800-2) `NatureMI`
