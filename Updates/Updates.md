@@ -4,7 +4,7 @@
 
 [Universal and extensible language-vision models for organ segmentation and tumor detection from abdominal computed tomography](https://www.sciencedirect.com/science/article/abs/pii/S1361841524001518)
 
-[Laplace neural operator for solving differential equations](https://github.com/katiana22/latent-deeponet)
+[Laplace neural operator for solving differential equations](https://www.nature.com/articles/s42256-024-00844-4#:~:text=The%20LNO%20is%20capable%20of,solving%20several%20ODEs%20and%20PDEs.)
 
 ## 24/06/2024
 
