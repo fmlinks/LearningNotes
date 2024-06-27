@@ -1,5 +1,7 @@
 # Pending Updates
 
+## 27/06/2024
+
 ## 24/06/2024
 
 - [ ]  [A collective AI via lifelong learning and sharing at the edge](https://www.nature.com/articles/s42256-024-00800-2) `NatureMI`
