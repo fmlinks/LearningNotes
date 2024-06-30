@@ -1,5 +1,9 @@
 # Pending Updates
 
+## 30/06/24
+
+[Universal and extensible language-vision models for organ segmentation and tumor detection from abdominal computed tomography](https://www.sciencedirect.com/science/article/pii/S1361841524001518)
+
 ## 27/06/2024
 
 [Universal and extensible language-vision models for organ segmentation and tumor detection from abdominal computed tomography](https://www.sciencedirect.com/science/article/abs/pii/S1361841524001518)
