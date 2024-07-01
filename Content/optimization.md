@@ -49,6 +49,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
+from monai.networks.nets import UNet
 
 # Define the low-rank adaptation for a convolutional layer
 class LoRAConv2d(nn.Module):
@@ -68,54 +69,18 @@ class LoRAConv2d(nn.Module):
         x = nn.functional.conv2d(x, self.weight_B, bias=self.bias)
         return x
 
-# Define the UNet architecture with LoRA adapted convolutional layers
-class UNet(nn.Module):
-    def __init__(self, in_channels, out_channels, rank):
-        super(UNet, self).__init__()
-        self.encoder1 = nn.Sequential(
-            LoRAConv2d(in_channels, 64, kernel_size=3, rank=rank, padding=1),
-            nn.ReLU(),
-            LoRAConv2d(64, 64, kernel_size=3, rank=rank, padding=1),
-            nn.ReLU()
-        )
-        self.pool1 = nn.MaxPool2d(kernel_size=2, stride=2)
-        
-        self.encoder2 = nn.Sequential(
-            LoRAConv2d(64, 128, kernel_size=3, rank=rank, padding=1),
-            nn.ReLU(),
-            LoRAConv2d(128, 128, kernel_size=3, rank=rank, padding=1),
-            nn.ReLU()
-        )
-        self.pool2 = nn.MaxPool2d(kernel_size=2, stride=2)
-        
-        self.decoder2 = nn.Sequential(
-            LoRAConv2d(128, 64, kernel_size=3, rank=rank, padding=1),
-            nn.ReLU(),
-            LoRAConv2d(64, 64, kernel_size=3, rank=rank, padding=1),
-            nn.ReLU()
-        )
-        
-        self.up1 = nn.ConvTranspose2d(128, 64, kernel_size=2, stride=2)
-        
-        self.decoder1 = nn.Sequential(
-            LoRAConv2d(128, 64, kernel_size=3, rank=rank, padding=1),
-            nn.ReLU(),
-            LoRAConv2d(64, 64, kernel_size=3, rank=rank, padding=1),
-            nn.ReLU(),
-            nn.Conv2d(64, out_channels, kernel_size=1)
-        )
-        
-    def forward(self, x):
-        enc1 = self.encoder1(x)
-        enc2 = self.encoder2(self.pool1(enc1))
-        
-        dec2 = self.decoder2(self.pool2(enc2))
-        
-        up1 = self.up1(dec2)
-        cat1 = torch.cat([up1, enc1], dim=1)
-        
-        out = self.decoder1(cat1)
-        return out
+# Function to replace Conv2d layers with LoRAConv2d in a given model
+def replace_conv_with_lora(model, rank):
+    for name, module in model.named_children():
+        if isinstance(module, nn.Conv2d):
+            in_channels = module.in_channels
+            out_channels = module.out_channels
+            kernel_size = module.kernel_size[0]
+            stride = module.stride[0]
+            padding = module.padding[0]
+            setattr(model, name, LoRAConv2d(in_channels, out_channels, kernel_size, rank, stride, padding))
+        elif len(list(module.children())) > 0:
+            replace_conv_with_lora(module, rank)
 
 # Parameters
 input_channels = 3
@@ -123,6 +88,18 @@ output_channels = 1
 rank = 4
 learning_rate = 0.001
 num_epochs = 20
+
+# Initialize the MONAI UNet model
+model = UNet(
+    dimensions=2,
+    in_channels=input_channels,
+    out_channels=output_channels,
+    channels=(16, 32, 64, 128, 256),
+    strides=(2, 2, 2, 2)
+)
+
+# Replace Conv2d layers with LoRAConv2d layers
+replace_conv_with_lora(model, rank)
 
 # Dummy data for illustration purposes
 X = torch.randn(10, input_channels, 128, 128)  # 10 images, 3 channels, 128x128 resolution
@@ -132,8 +109,7 @@ y = torch.randn(10, output_channels, 128, 128)  # 10 masks, 1 channel, 128x128 r
 dataset = TensorDataset(X, y)
 dataloader = DataLoader(dataset, batch_size=2, shuffle=True)
 
-# Initialize the model, loss function, and optimizer
-model = UNet(input_channels, output_channels, rank)
+# Initialize the loss function and optimizer
 criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
