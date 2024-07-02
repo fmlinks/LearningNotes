@@ -1,5 +1,11 @@
 # Pending Updates
 
+## 02/07/24
+
+[I2U-Net: A dual-path U-Net with rich information interaction for medical image segmentation](https://www.sciencedirect.com/science/article/pii/S136184152400166X)
+
+可以用来改进teacher-student
+
 ## 30/06/24
 
 [Universal and extensible language-vision models for organ segmentation and tumor detection from abdominal computed tomography](https://www.sciencedirect.com/science/article/pii/S1361841524001518)
