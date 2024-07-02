@@ -6,6 +6,85 @@
 
 可以用来改进teacher-student
 
+#### CLIP
+
+在医学图像分析中，CLIP（Contrastive Language–Image Pre-Training）是OpenAI提出的一种多模态模型，能够处理文本和图像的联合理解。它通过同时训练文本和图像的表示，使其在共同的特征空间中具有相似的表示。这种特性使得CLIP在医学图像分析中的应用具有以下几个主要优势：
+
+跨模态检索：通过CLIP，用户可以使用自然语言描述来检索相关的医学图像。例如，医生可以输入一个描述特定病症的文本，CLIP可以找到对应的医学影像。
+
+标注效率：医学图像数据的标注通常需要大量的专业知识和时间。CLIP通过对图像和文本的联合表示，可以减少标注工作量，甚至可以在无标注数据的情况下进行初步的分析和分类。
+
+多模态诊断：CLIP能够结合图像和文本信息，为复杂的医学诊断提供更丰富的参考。例如，结合病人的病历文本和影像资料，CLIP可以辅助医生做出更准确的诊断。
+
+知识迁移：CLIP在大规模通用数据上预训练，可以将其获取的知识迁移到医学领域，提升模型在医学图像分析任务上的表现，即使医学数据集较小。
+
+具体来说，CLIP的训练过程包括：
+
+文本编码器：使用一个Transformer架构来处理文本数据，将文本转换为特征向量。
+图像编码器：使用一个CNN（如ResNet）来处理图像数据，将图像转换为特征向量。
+对比学习：通过一个对比学习任务，使同一对图像和文本的特征向量尽可能接近，而不同对的特征向量尽可能远离。
+这种方法在多个领域展示了其强大的通用性和灵活性，在医学图像分析中，CLIP可以被用来辅助诊断、自动标注、信息检索等多个应用场景。
+
+```python
+
+1. 安装必要的库
+
+2. 数据加载和预处理
+
+3. 定义UNet模型
+
+4. 使用CLIP进行推理增强
+
+import clip
+from PIL import Image
+import numpy as np
+
+# 加载CLIP模型
+clip_model, preprocess = clip.load("ViT-B/32", device=device)
+
+# 定义辅助函数
+def select_roi_with_clip(image, text_prompt):
+    image_preprocessed = preprocess(image).unsqueeze(0).to(device)
+    text_inputs = clip.tokenize([text_prompt]).to(device)
+    with torch.no_grad():
+        image_features = clip_model.encode_image(image_preprocessed)
+        text_features = clip_model.encode_text(text_inputs)
+        similarity = (image_features @ text_features.T).softmax(dim=-1)
+    return similarity
+
+# 加载并预处理示例图像
+clip_image = Image.open("path_to_your_image.jpg").convert("RGB")
+text_prompt = "a photo of a brain with a tumor"
+
+# 获取CLIP相似度
+similarity = select_roi_with_clip(clip_image, text_prompt)
+print(f"Similarity with the prompt: {similarity.item():.4f}")
+
+5. 使用UNet进行推理
+
+from monai.inferers import sliding_window_inference
+
+model.eval()
+with torch.no_grad():
+    output = sliding_window_inference(image.unsqueeze(0).to(device), (96, 96, 96), 4, model)
+segmentation = torch.argmax(output, dim=1).cpu().numpy()
+
+# 显示结果
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(12, 6))
+plt.subplot(1, 2, 1)
+plt.title("Original Image")
+plt.imshow(clip_image)
+
+plt.subplot(1, 2, 2)
+plt.title("Segmented Image")
+plt.imshow(segmentation[0, 0], cmap="gray")
+plt.show()
+
+```
+
+
 ## 30/06/24
 
 [Universal and extensible language-vision models for organ segmentation and tumor detection from abdominal computed tomography](https://www.sciencedirect.com/science/article/pii/S1361841524001518)
