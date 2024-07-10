@@ -1,12 +1,16 @@
 # Pending Updates
 
+## 10/07/24
+
+ CLIP
+
 ## 09/07/24 
 
 FLARE
 
 ## 05/07/24
 
-Fine tuning
+Fine tuning 
 
 下面是对模型fine-tuning的全部技术的总结，包括它们的基本原理和适用场景：
 
