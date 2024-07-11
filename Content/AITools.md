@@ -23,7 +23,7 @@
 | <a href="https://fsl.fmrib.ox.ac.uk/fsl/fslwiki" target="_parent\"><img src="https://img.shields.io/badge/FSL-blue"/></a> | Brain MRI registration |
 
 
-| Webdesign Tools     | Description                   |
+| Web design Tools     | Description                   |
 |--------------------|-------------------------------|
 | <a href="https://screenshottocode.com/" target="_parent\"><img src="https://img.shields.io/badge/Screenshot to Code-blue"/></a> | Screenshot to Code |
 
