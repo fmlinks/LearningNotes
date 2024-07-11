@@ -1,5 +1,9 @@
 # Pending Updates
 
+## 11/07/24
+
+DWT-based Perona-Malik Diffusion (PMD) Block ??
+
 ## 10/07/24
 
  CLIP
