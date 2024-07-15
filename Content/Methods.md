@@ -1,5 +1,5 @@
 
-
+# Computer Vision Methods Details
 
 
 
@@ -8,9 +8,6 @@
 | <a href="https://screenshottocode.com/" target="_parent\"><img src="https://img.shields.io/badge/Screenshot to Code-blue"/></a> | Screenshot to Code |
 
 
-| Web Design Tools     | Description                   |
-|----------------------|-------------------------------|
-|ResNet|-------------------------------|
 
 
 
