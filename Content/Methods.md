@@ -1,6 +1,4 @@
 
-# Computer Vision Methods Details
-
 
 
 | Web Design Tools     | Description                   |
