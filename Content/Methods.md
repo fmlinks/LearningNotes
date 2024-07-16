@@ -32,35 +32,144 @@
 - Oriented Object Detection Models
 - Webpage Object Detection Pipeline
 
-#### Image Feature Extractors
+#### [Object Detection Models](https://paperswithcode.com/methods/category/object-detection-models)
 
 
- 
+
+#### [GAN](https://paperswithcode.com/methods/category/generative-adversarial-networks)
+
+#### [Image Data Augmentation](https://paperswithcode.com/methods/category/image-data-augmentation)
+
+
+#### [Vision Transformers](https://paperswithcode.com/methods/category/vision-transformer)
+
+
+#### [Semantic Segmentation Models](https://paperswithcode.com/methods/category/segmentation-models)
+#### [Instance Segmentation Models](https://paperswithcode.com/methods/category/instance-segmentation-models)
+
+
+#### [Vision and Language Pre-Trained Models](https://paperswithcode.com/methods/category/vision-and-language-pre-trained-models)
+
+
+#### [Light-weight neural networks](https://paperswithcode.com/methods/category/light-weight-neural-networks)
+
+
+
+
+
+#### [Image Feature Extractors](https://paperswithcode.com/methods/category/image-feature-extractors)
+
+#### [Feature Extractors](https://paperswithcode.com/methods/category/feature-extractors)
+
+#### [Pooling Operations](https://paperswithcode.com/methods/category/pooling-operation)
+
+
 
 
 #### 
 
+#### 
+
+#### 
 
 #### 
 
 #### 
 
-
 #### 
-
-
-#### 
-
 
 #### 
 
 #### 
 
+####  
 
 #### 
 
+#### 
 
 #### 
 
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+####  
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+####  
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+####  
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+####  
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
 
 #### 
