@@ -56,7 +56,7 @@ Learning Notes of Medical Image Analysis
 - Radiomics
 - Registration
 - ROC analysis
-- Score-based Generative Models
+- Generative Models
 - Segmentation
 - Shape analysis
 - Stereoscopy
