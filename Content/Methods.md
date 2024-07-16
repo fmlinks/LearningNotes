@@ -14,16 +14,16 @@
 # Computer Vision Methods
 
 #### Image Models
-- Convolutional Neural Networks
-- Vision Transformers
+- [Convolutional Neural Networks](https://paperswithcode.com/methods/category/convolutional-neural-networks)
+- [Vision Transformers](https://paperswithcode.com/methods/category/vision-transformer)
   
 
 #### Generative Models
-- Generative Adversarial Networks
-- Generative Training
-- Likelihood-Based Generative Models
+- [Generative Adversarial Networks](https://paperswithcode.com/methods/category/generative-adversarial-networks)
+- [Generative Training](https://paperswithcode.com/methods/category/generative-training)
+- [Likelihood-Based Generative Models](https://paperswithcode.com/methods/category/likelihood-based-generative-models)
 
-#### Image Model Blocks
+#### [Image Model Blocks](https://paperswithcode.com/methods/category/image-model-blocks)
 
 
 #### Object Detection Models
