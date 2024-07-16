@@ -19,25 +19,18 @@
   
 
 #### Generative Models
-
 - Generative Adversarial Networks
 - Generative Training
 - Likelihood-Based Generative Models
-
 
 #### Image Model Blocks
 
 
 #### Object Detection Models
-
 - Math Formula Detection Models
-
 - One-Stage Object Detection Models
-
 - Oriented Object Detection Models
-
 - Webpage Object Detection Pipeline
-
 
 #### Image Feature Extractors
 
