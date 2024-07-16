@@ -56,8 +56,10 @@ Learning Notes of Medical Image Analysis
 - Radiomics
 - Registration
 - ROC analysis
-- Generative Models
+- Score based Generative Models
 - Segmentation
+- Synthesis
+- Generation
 - Shape analysis
 - Stereoscopy
 - Super resolution
