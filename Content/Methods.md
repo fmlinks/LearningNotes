@@ -14,18 +14,14 @@
 # Computer Vision Methods
 
 #### Image Models
-
 - Convolutional Neural Networks
-  
 - Vision Transformers
   
 
 #### Generative Models
 
 - Generative Adversarial Networks
-
 - Generative Training
-
 - Likelihood-Based Generative Models
 
 
