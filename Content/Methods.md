@@ -24,27 +24,41 @@
 #### [Generative Models](https://paperswithcode.com/methods/category/generative-models)
 #### [Likelihood-Based Generative Models](https://paperswithcode.com/methods/category/likelihood-based-generative-models)
 #### [Unpaired Image-to-Image Translation](https://paperswithcode.com/methods/category/unpaired-image-to-image-translation)
+#### [Few-Shot Image-to-Image Translation](https://paperswithcode.com/methods/category/few-shot-image-to-image-translation)
+#### [Conditional Image-to-Image Translation Models](https://paperswithcode.com/methods/category/conditional-image-to-image-translation-models)
+#### [Style Transfer Modules](https://paperswithcode.com/methods/category/style-transfer-modules)
+#### [Style Transfer Models](https://paperswithcode.com/methods/category/style-transfer-models)
 #### [Adversarial Image Data Augmentation](https://paperswithcode.com/methods/category/adversarial-image-data-augmentation)
+#### [Anchor Generation Modules](https://paperswithcode.com/methods/category/anchor-generation-modules)
 
 #### [Object Detection Models](https://paperswithcode.com/methods/category/object-detection-models)
 #### [RoI Feature Extractors](https://paperswithcode.com/methods/category/roi-feature-extractors)
 #### [3D Object Detection Models](https://paperswithcode.com/methods/category/3d-object-detection-models)
+#### [Object Detection Modules](https://paperswithcode.com/methods/category/object-detection-modules)
 #### [Region Proposal](https://paperswithcode.com/methods/category/region-proposal)
+#### [Anchor Supervision](https://paperswithcode.com/methods/category/anchor-supervision) x
 
 #### [Image Segmentation Models](https://paperswithcode.com/methods/category/image-segmentation-models)
 #### [Semantic Segmentation Models](https://paperswithcode.com/methods/category/segmentation-models)
 #### [Instance Segmentation Models](https://paperswithcode.com/methods/category/instance-segmentation-models)
 #### [Instance Segmentation Modules](https://paperswithcode.com/methods/category/instance-segmentation-modules)
 #### [Semantic Segmentation Modules](https://paperswithcode.com/methods/category/semantic-segmentation-modules)
+#### [Interactive Semantic Segmentation Models](https://paperswithcode.com/methods/category/interactive-semantic-segmentation-models)
 
 #### [Generative Video Models](https://paperswithcode.com/methods/category/generative-video-models)
 #### [Video Model Blocks](https://paperswithcode.com/methods/category/video-model-blocks)
 #### [Video Object Segmentation Models](https://paperswithcode.com/methods/area/computer-vision)
 #### [Video Recognition Models](https://paperswithcode.com/methods/category/video-recognition-models)
-
+#### [Video Panoptic Segmentation Models](https://paperswithcode.com/methods/category/video-panoptic-segmentation-models)
+#### [Video Inpainting Models](https://paperswithcode.com/methods/category/video-inpainting-models)
+#### [Video Instance Segmentation Models](https://paperswithcode.com/methods/category/video-instance-segmentation-models)
 
 #### [Image Super-Resolution Models](https://paperswithcode.com/methods/category/image-super-resolution-models)
-
+#### [Super-Resolution Models](https://paperswithcode.com/methods/category/super-resolution-models)
+#### [Video Super-Resolution Models](https://paperswithcode.com/methods/category/video-super-resolution-models)
+#### [Video Frame Interpolation](https://paperswithcode.com/methods/category/video-frame-interpolation)
+#### [Video Interpolation Models](https://paperswithcode.com/methods/category/video-interpolation-models)
+#### [Video Data Augmentation](https://paperswithcode.com/methods/category/video-data-augmentation)
 
 #### [Vision and Language Pre-Trained Models](https://paperswithcode.com/methods/category/vision-and-language-pre-trained-models)
 
@@ -53,20 +67,29 @@
 
 #### [3D Reconstruction](https://paperswithcode.com/methods/category/3d-reconstruction)
 #### [3D Representations](https://paperswithcode.com/methods/category/3d-representations)
-
 #### [Point Cloud Models](https://paperswithcode.com/methods/category/point-cloud-models)
+#### [Point Cloud Augmentation](https://paperswithcode.com/methods/category/point-cloud-augmentation)
+#### [Point Cloud Representations](https://paperswithcode.com/methods/category/point-cloud-representations)
+#### [Stereo Depth Estimation Models](https://paperswithcode.com/methods/category/stereo-depth-estimation-models)
+#### [Monocular Depth Estimation Models](https://paperswithcode.com/methods/category/monocular-depth-estimation-models)
+#### [Meshing](https://paperswithcode.com/methods/category/meshing)
+
 
 #### [Multi-Modal Methods](https://paperswithcode.com/methods/category/multi-modal-methods)
 
 
 #### [Image Denoising Models](https://paperswithcode.com/methods/category/image-denoising-models)
 #### [Image Data Augmentation](https://paperswithcode.com/methods/category/image-data-augmentation)
+#### [Image Scaling Strategies](https://paperswithcode.com/methods/category/image-scaling-strategies)
 #### [Image Feature Extractors](https://paperswithcode.com/methods/category/image-feature-extractors)
 #### [Backbone Architectures](https://paperswithcode.com/methods/category/backbone-architectures)
 #### [Feature Extractors](https://paperswithcode.com/methods/category/feature-extractors)
 #### [Feature Pyramid Blocks](https://paperswithcode.com/methods/category/feature-pyramid-blocks)
 #### [Image Model Blocks](https://paperswithcode.com/methods/category/image-model-blocks)
 #### [Pooling Operations](https://paperswithcode.com/methods/category/pooling-operation)
+#### [Downsampling](https://paperswithcode.com/methods/category/downsampling)
+-SMOTE
+#### [Feature Upsampling](https://paperswithcode.com/methods/category/feature-upsampling)
 #### [Multi-Scale Training](https://paperswithcode.com/methods/category/multi-scale-training)
 
 #### [Medical Image Models](https://paperswithcode.com/methods/category/medical-image-models)
@@ -83,6 +106,7 @@
 #### [Face Recognition Models](https://paperswithcode.com/methods/category/face-recognition-models)
 
 #### [Pose Estimation Models](https://paperswithcode.com/methods/category/pose-estimation-models)
+#### [Pose Estimation Blocks](https://paperswithcode.com/methods/category/pose-estimation-blocks)
 
 
 
@@ -107,9 +131,9 @@
 
 #### [Image Retrieval Models](https://paperswithcode.com/methods/category/image-retrieval-models)
 
-#### []()
 
-#### []()
+
+#### [Explainable CNNs](https://paperswithcode.com/methods/category/explainable-cnns) CAM
 
 #### []()
 
