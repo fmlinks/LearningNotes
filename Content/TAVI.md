@@ -11,7 +11,7 @@ TAVI: Transcatheter Aortic Valve Implantation
 | | | |
 | | | |
 
-https://user-images.githubusercontent.com/54370274/224839806-8720fb19-9c7d-46a2-8d7c-de3afb39c11f.svg
+![Open In Colab](https://user-images.githubusercontent.com/54370274/224839806-8720fb19-9c7d-46a2-8d7c-de3afb39c11f.svg)
 
 ## 🦒 Colab
 | lite | stable | nightly | Info - Token - Model Page
