@@ -3,8 +3,16 @@
 
 TAVI: Transcatheter Aortic Valve Implantation
 
-- [ ] REPRISE I: Transfemoral aortic valve replacement with the repositionable Lotus Valve System in high surgical risk patients: the REPRISE I study 
-<a href="https://eurointervention.pcronline.com/article/transfemoral-aortic-valve-replacement-with-the-repositionable-lotus-valve-system-in-high-surgical-risk-patients-the-reprise-i-study"><img src="https://img.shields.io/badge/Paper-blue"/></a>        
+| Links     | Paper                   | Description                   |
+|--------------------|-------------------------------|---------------|
+|<a href="https://eurointervention.pcronline.com/article/transfemoral-aortic-valve-replacement-with-the-repositionable-lotus-valve-system-in-high-surgical-risk-patients-the-reprise-i-study"><img src="https://img.shields.io/badge/Paper-blue"/></a> |Transfemoral aortic valve replacement with the repositionable Lotus Valve System in high surgical risk patients: the REPRISE I study | REPRISE I |
+| | | |
+| | | |
+| | | |
+| | | |
+
+
+        
 
 - [ ] REPRISE II: Transcatheter Aortic Valve Replacement for Severe Symptomatic Aortic Stenosis Using a Repositionable Valve System: 30-Day Primary Endpoint Results From the REPRISE II Study
 <a href="https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.05.067"><img src="https://img.shields.io/badge/Paper-blue"/></a>     
