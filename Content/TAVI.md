@@ -1,5 +1,5 @@
 
-<a href="" target="_parent\"><img src="https://img.shields.io/badge/Paper-blue"/></a>       
+<a href=""><img src="https://img.shields.io/badge/Paper-blue"/></a>       
 
 TAVI: Transcatheter Aortic Valve Implantation
 
