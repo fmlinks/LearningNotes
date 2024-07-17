@@ -8,7 +8,7 @@ REPRISE I: Transfemoral aortic valve replacement with the repositionable Lotus V
 REPRISE II: Transcatheter Aortic Valve Replacement for Severe Symptomatic Aortic Stenosis Using a Repositionable Valve System: 30-Day Primary Endpoint Results From the REPRISE II Study
 [links](https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.05.067)
 
-REPRISE III: Effect of Mechanically Expanded vs Self-Expanding Transcatheter Aortic Valve Replacement on Mortality and Major Adverse Clinical Events in High-Risk Patients With Aortic Stenosis: The REPRISE III Randomized Clinical Trial
+**REPRISE III**: Effect of Mechanically Expanded vs Self-Expanding Transcatheter Aortic Valve Replacement on Mortality and Major Adverse Clinical Events in High-Risk Patients With Aortic Stenosis: The REPRISE III Randomized Clinical Trial
 [links](https://pubmed.ncbi.nlm.nih.gov/29297076/)
 
 Two-Year Outcomes After Transcatheter Aortic Valve Replacement With Mechanical vs Self-expanding Valves
