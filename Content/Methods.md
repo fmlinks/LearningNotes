@@ -133,9 +133,32 @@
 
 #### [Explainable CNNs](https://paperswithcode.com/methods/category/explainable-cnns) CAM
 
-#### []()
+#### Conditional Random Fields
 
-#### []()
+Conditional Random Fields (CRF) is a probabilistic graphical model widely used for labelling and segmenting sequential data. It has applications in various fields such as natural language processing and computer vision. In medical image segmentation, CRF is particularly valuable for refining the results produced by deep learning models.
+
+##### Basic Principles
+
+A CRF is constructed using nodes and edges in a graph where:
+- **Nodes** represent the observed values to be labelled or segmented (e.g., pixels in an image).
+- **Edges** represent the relationships between nodes, typically capturing dependencies between neighbouring pixels in image processing.
+
+The goal of a CRF model is to maximize the conditional probability of the labels given the observed data by minimizing the overall energy function. The energy function generally comprises two terms:
+1. **Unary Term**: Measures the agreement between each node (pixel) and its assigned label based on the observed data.
+2. **Pairwise Term**: Measures the consistency between neighbouring nodes' labels, encouraging smooth transitions and preserving edge continuity.
+
+##### Application Steps
+1. **Model Definition**: Establish the CRF model on the segmented image, defining nodes and edges.
+2. **Energy Function Construction**: Determine the form of the unary and pairwise terms and define the overall energy function.
+3. **Energy Minimization**: Use approximate inference algorithms (e.g., mean field approximation) to optimize the energy function and obtain the label assignment.
+4. **Apply Optimized Results**: Implement the optimized label assignments on the initial segmentation to achieve refined results.
+
+##### Application Example
+
+In medical image segmentation, CRF is used to optimize initial segmentation results. For instance, in brain tumour segmentation, the initial results may include noise and discontinuous boundaries. By applying CRF, the model leverages pixel relationships to smooth boundaries and remove noise, thus enhancing segmentation accuracy.
+
+The main advantage of CRF lies in its ability to utilize contextual information, combining the conditional probability of observed data and label relationships to improve labelling or segmentation tasks. This makes CRF an effective post-processing technique in medical image segmentation tasks that require high precision and consistency.
+
 
 #### []()
 
