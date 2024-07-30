@@ -1,5 +1,11 @@
 # Pending Updates
 
+## 31/07/24
+
+mamba2
+
+SAM2
+
 ## 11/07/24
 
 DWT-based Perona-Malik Diffusion (PMD) Block ??
