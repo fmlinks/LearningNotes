@@ -10,6 +10,8 @@ Federated learning
 
 So what test time would itation does is it tries to maximize the confidence of the predictions.
 
+prototypical networks
+
 ## 11/07/24
 
 DWT-based Perona-Malik Diffusion (PMD) Block ??
