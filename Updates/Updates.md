@@ -6,6 +6,8 @@ mamba2
 
 SAM2
 
+Federated learning
+
 ## 11/07/24
 
 DWT-based Perona-Malik Diffusion (PMD) Block ??
