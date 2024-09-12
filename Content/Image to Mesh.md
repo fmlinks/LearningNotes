@@ -26,7 +26,8 @@
 ### Simple Benchmark
 
 ##### [MeshCNN](https://ranahanocka.github.io/MeshCNN/)
-mesh to mesh for segmentation or classification
+mesh to mesh for segmentation or classification;
+dataset in home page;
 
 ##### Pixel2Mesh
 Image-to-mesh, 3D shape reconstruction, Graph convolutional networks (GCNs)
