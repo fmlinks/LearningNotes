@@ -1,4 +1,4 @@
-### image to mesh
+## image to mesh
 
 
 #### keywords
@@ -18,12 +18,23 @@
 - Graph Neural Networks for Mesh Processing
 - Occupancy Networks
 
-------------
+----
 - [ ] Marching Cubes: for mesh generation
 - [ ] implicit
 
 
-### Simple Benchmark
+## Simple Benchmark
+
+
+#### image to mesh
+- Pixel2Mesh
+- AtlasNet
+
+#### Implicit representation for high quality mesh
+- DeepSDF
+- Occupancy Networks
+
+----
 
 #### [MeshCNN](https://ranahanocka.github.io/MeshCNN/)
 - mesh to mesh for segmentation or classification;
@@ -39,11 +50,11 @@
 #### AtlasNet
 - 2D image to 3D mesh, Image-based 3D reconstruction, Parametric surface modeling
 
-#### DeepSDF (Deep Signed Distance Functions)
+#### DeepSDF, Deep Signed Distance Functions
 - image -> Distance Functions -> Marching Cubes -> mesh;
 - highlight: smooth, implicit function
 
-#### DISN (Deep Implicit Surface Network)
+#### DISN, Deep Implicit Surface Network
 - image -> implicit surface representation -> Marching Cubes -> mesh
 
 
@@ -71,12 +82,12 @@
 
 
 
-### SOTA benchmark
+## SOTA benchmark
 
 
 
 
-### Potential research direction:
+## Potential research direction:
 
 - 3D cardiac image to 4D cardiac mesh
 
