@@ -34,7 +34,7 @@
 - DeepSDF
 - Occupancy Networks
 
-----
+
 
 #### [MeshCNN](https://ranahanocka.github.io/MeshCNN/)
 - mesh to mesh for segmentation or classification;
