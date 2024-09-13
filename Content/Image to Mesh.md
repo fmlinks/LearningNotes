@@ -18,7 +18,7 @@
 - Graph Neural Networks for Mesh Processing
 - Occupancy Networks
 
-----
+
 - [ ] Marching Cubes: for mesh generation
 - [ ] implicit
 
