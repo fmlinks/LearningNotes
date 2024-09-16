@@ -97,21 +97,13 @@
 ### CV
 
 - 2023.6 [Neuralangelo](https://research.nvidia.com/labs/dir/neuralangelo/)
-
-Neural surface reconstruction;
-
-multi-view stereo algorithms; (had been the method of choice for sparse 3D reconstruc-
-tion.)
-
-neural surface reconstruction methods
-
-occupancy fields
-
-element (smooth) control (simulation BC control): Progressive Levels of Detail. Step size ϵ. As previously discussed, numerical gradients can be interpreted as a smoothing operation where the step size ϵ controls the resolution and the amount of recovered details.
-
+  - Neural surface reconstruction;
+  - multi-view stereo algorithms (had been the method of choice for sparse 3D reconstruction.)
+  - neural surface reconstruction methods
+  - occupancy fields
+  - element (smooth) control (simulation BC control): Progressive Levels of Detail. Step size ϵ. As previously discussed, numerical gradients can be interpreted as a smoothing operation where the step size ϵ controls the resolution and the amount of recovered details.
 
 - Instant NGP （Neural GraphicsPrimitives）
-  
 - COLMAP
 - NeuS
 - NeuralWarp
