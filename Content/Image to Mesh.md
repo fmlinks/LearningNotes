@@ -132,6 +132,13 @@
   - Neural surface reconstruction
 
 
+#### Implicit Neural Representations (INRs)
+
+- [ ] DeepSDF
+- [ ] Neural Implicit Surfaces (for 3D reconstruction task)
+- [ ] Nerf (for volume rendering task, learns the light field)
+
+- 2023.9 [NISF: Neural Implicit Segmentation Functions](https://github.com/niloide/implicit_segmentation)
 
 
 
@@ -145,9 +152,13 @@
 
 
 
-## Dataset - 3D Reconstruction - CV
 
-[DTU](https://paperswithcode.com/sota/3d-reconstruction-on-dtu)
+
+## Dataset
+
+###  CV 3D Reconstruction 
+
+- [DTU](https://paperswithcode.com/sota/3d-reconstruction-on-dtu)
 
 
 
