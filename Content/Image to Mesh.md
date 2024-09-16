@@ -90,6 +90,8 @@
 
 ## SOTA benchmark
 
+### CV
+
 - Neuralangelo
 
 Neural surface reconstruction;
@@ -105,6 +107,24 @@ element (smooth) control (simulation BC control): Progressive Levels of Detail. 
 
 
 - Instant NGP （Neural GraphicsPrimitives）
+  
+- COLMAP
+- NeuS
+- NeuralWarp
+
+### Medical Image
+
+[Neural implicit surface reconstruction of freehand 3D ultrasound volume with geometric constraints](https://www.sciencedirect.com/science/article/pii/S1361841524002305?casa_token=NhMAc1QEx4IAAAAA:Q9ovrbow9Jo2wbvHR6i-whY3Va9_anbWN9pGUGqcdyUOHQTSHl3-m6SGEPhg65Kvt7wlOVjgHVY)
+
+
+
+
+
+
+
+## Dataset - 3D Reconstruction - CV
+
+[DTU](https://paperswithcode.com/sota/3d-reconstruction-on-dtu)
 
 
 
