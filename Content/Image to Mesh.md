@@ -26,6 +26,7 @@
 
 - 3D Rendering (point cloud to image)
 - 3D Reconstruction (image to point cloud)
+- 3d Mesh Reconstruction
 
 
 ## Simple Benchmark
