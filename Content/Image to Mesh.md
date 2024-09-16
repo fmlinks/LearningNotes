@@ -129,7 +129,7 @@
   - Neural surface reconstruction
 
 
-- [Image-to-Graph Convolutional Network for Deformable Shape Reconstruction from a Single Projection Image](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_25)
+- 2021.9 [Image-to-Graph Convolutional Network for Deformable Shape Reconstruction from a Single Projection Image](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_25)
 
 
 
