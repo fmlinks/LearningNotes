@@ -140,7 +140,7 @@
 
 - 2023 ICCV CVAMD Workshop [Implicit Neural Representation in Medical Imaging: A Comparative Survey](https://github.com/xmindflow/Awesome-Implicit-Neural-Representations-in-Medical-imaging#cardiac-and-heart-structures)
 
-- 2023.9 MICCAI [NISF: Neural Implicit Segmentation Functions](https://github.com/niloide/implicit_segmentation) [SOTA Comparison]
+- 2023.9 MICCAI [NISF: Neural Implicit Segmentation Functions](https://github.com/niloide/implicit_segmentation) [**SOTA Comparison**]
   
 
 
