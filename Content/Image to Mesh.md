@@ -96,7 +96,7 @@
 
 ### CV
 
-- Neuralangelo
+- 2023.6 [Neuralangelo](https://research.nvidia.com/labs/dir/neuralangelo/)
 
 Neural surface reconstruction;
 
