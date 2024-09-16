@@ -31,6 +31,9 @@
 - 3D Rendering (point cloud to image)
 - 3D Reconstruction (image to point cloud)
 - 3d Mesh Reconstruction
+- Neural volume reconstruction. 
+- Neural surface reconstruction
+- Implicit Neural Representation
 
 
 ## Simple Benchmark
