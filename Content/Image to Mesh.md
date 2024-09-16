@@ -116,7 +116,9 @@
 #### Raw mesh align to target segmentation
 
 - 2020 [voxel2mesh](https://github.com/cvlab-epfl/voxel2mesh)
+- 2021.9 [Image-to-Graph Convolutional Network for Deformable Shape Reconstruction from a Single Projection Image](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_25)
 - 2023.10 [Abdominal organ segmentation via deep diffeomorphic mesh deformations](https://link.springer.com/article/10.1038/s41598-023-45435-2?fromPaywallRec=false)
+
 
 #### 3D reconstruction
 
@@ -128,8 +130,9 @@
   - Neural volume reconstruction. 
   - Neural surface reconstruction
 
+####  
 
-- 2021.9 [Image-to-Graph Convolutional Network for Deformable Shape Reconstruction from a Single Projection Image](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_25)
+
 
 
 
