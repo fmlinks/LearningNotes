@@ -40,7 +40,7 @@
 - Pixel2Mesh
 - AtlasNet
 
-#### Implicit representation for high quality mesh
+#### Implicit representation for high-quality mesh
 - DeepSDF
 - Occupancy Networks
 
@@ -122,7 +122,7 @@ element (smooth) control (simulation BC control): Progressive Levels of Detail. 
 
 - 2020 [voxel2mesh](https://github.com/cvlab-epfl/voxel2mesh)
 
-- 2024.4 [mplicit Neural Representations for Breathing-compensated Volume Reconstruction in Robotic Ultrasound](https://arxiv.org/abs/2311.04999)
+- 2024.4 [Implicit Neural Representations for Breathing-compensated Volume Reconstruction in Robotic Ultrasound](https://arxiv.org/abs/2311.04999)
 
 - 2024.9 [Neural implicit surface reconstruction of freehand 3D ultrasound volume with geometric constraints](https://www.sciencedirect.com/science/article/pii/S1361841524002305?casa_token=NhMAc1QEx4IAAAAA:Q9ovrbow9Jo2wbvHR6i-whY3Va9_anbWN9pGUGqcdyUOHQTSHl3-m6SGEPhg65Kvt7wlOVjgHVY)
 
@@ -130,10 +130,12 @@ signed distance functions (SDFs)
 
 implicit neural representation (INR)
 
+Neural volume reconstruction. 
+
+Neural surface reconstruction
 
 
-
-
+- [Image-to-Graph Convolutional Network for Deformable Shape Reconstruction from a Single Projection Image](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_25)
 
 
 
