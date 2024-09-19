@@ -168,8 +168,8 @@
 
 ## Potential research direction:
 
-- 3D cardiac image to 4D cardiac mesh
-- CT cardiac image to mesh
+- mesh deformation
+- hash implicated representation
 
 
 
